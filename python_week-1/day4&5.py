@@ -29,3 +29,13 @@ while True:
         break
     else:
         print("Please enter a valid number.")
+this_dict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+print(this_dict)
+
+thisDict = dict(name = "John", age = 36, country = "Norway")
+print(thisDict)

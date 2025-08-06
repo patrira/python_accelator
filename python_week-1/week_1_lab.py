@@ -51,17 +51,17 @@ def get_attendee_info():
 def print_attendee(attendee):
 
     print("\n Registration Complete!")
-    print("-" * 30)
+    print("-" * 25)
     print(f"Name        : {attendee['name']}")
     print(f"Age         : {attendee['age']}")
     print(f"Ticket Type : {attendee['ticket']}")
     print(f"Seating Zone: {attendee['zone']}")
-    print("-" * 30)
+    print("-" * 25)
 
 def print_summary(attendees):
 
     print("\n Event Summary:")
-    print("-" * 30)
+    print("-" * 25)
 
     zone_count = {"VIP Zone": 0, "Youth Zone": 0, "Standard Zone": 0}
     total_age = 0
